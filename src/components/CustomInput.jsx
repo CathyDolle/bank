@@ -4,7 +4,7 @@ import './CustomInput.scss';
 function CustomInput(props) {
   return (
     <div className="input_container">
-        <input type="test" placeholder={props.placeholder}/>
+        <input type={props.type} placeholder={props.placeholder}/>
         <label for="input">{props.name}</label>
     </div>
   );

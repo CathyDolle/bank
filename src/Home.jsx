@@ -1,7 +1,6 @@
 import React from 'react';
 import './Home.scss';
-import CustomInput from './components/CustomInput.jsx'
-import Button from './components/Button.jsx'
+import Form from './components/Form.jsx'
 
 function Home() {
   return (
@@ -14,21 +13,7 @@ function Home() {
       </section>
 
       {/* form section */}
-      <section className="form_section">
-        <div className="form_container">
-          <img className="right_circles" src="images/circles2.svg" alt="circles"></img>
-          <h1>Payment made <span>easy.</span></h1>
-          <h2>sign in</h2>
-          <CustomInput name="Name" placeholder="John"/>
-          <CustomInput name="Email" placeholder="you@example.com"/>
-          <CustomInput name="Password" placeholder="•••••••••••••"/>
-          <a className="recovery_password">Recovery password</a>
-          <Button name="Submit"/>
-          <div className="sign_container">
-            <p>Dont have an account ?</p><a href="">Sign in</a>
-          </div>
-        </div>
-      </section>
+      <Form></Form>
       <p className="policy">By joining, you are agreeing to our <span>Terms</span> and <span>Privacy Policy</span></p>
     </div>
   );
