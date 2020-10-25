@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+}
+
+// fonts
+
+// Title
+@font-face {
+  font-family: "Canela";
+  src: url("fonts/Canela-Regular.woff2") format("woff2"),
+    url("fonts/Canela-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Canela Thin";
+  src: url("fonts/Canela-Thin.woff2") format("woff2"),
+    url("fonts/Canela-Thin.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+// Body text
+@font-face {
+  font-family: "Proxima Nova Rg";
+  src: url("fonts/ProximaNova-Regular.woff2") format("woff2"),
+    url("fonts/ProximaNova-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+// TYPO
+
+// title
+h1 {
+  color: black;
+  font-family: "Canela";
+  font-size: 54px;
+  font-weight: 200;
+  line-height: 60px;
+  span {
+    color: var(--mainColor);
+  }
+}
+
+// subtitle
+h2 {
+  color: black;
+  font-family: "Canela";
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 30px 0 40px 0;
+  letter-spacing: 2px;
+}
+
+p {
+  font-family: "Proxima Nova Rg";
+  font-size: 14px;
+  color: var(--inactiveColor);
+}
+
+a {
+  font-family: "Proxima Nova Rg";
+  font-size: 14px;
+  color: black;
+}
+
+
+// colors
+
+:root {
+  --mainColor: rgb(240, 200, 200);
+  --inactiveColor: #d0d0d0;
+  --activeColor: rgb(235, 182, 182);
+}
