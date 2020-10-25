@@ -16,7 +16,7 @@ function Form() {
           <a className="recovery_password">Recover password</a>
           <Button name="Submit"/>
           <div className="sign_container">
-            <p>Dont have an account ?</p><a href="Inscription.jsx">Sign in</a>
+            <p>Dont have an account ?</p><a href="">Sign in</a>
           </div>
         </div>
       </section>
