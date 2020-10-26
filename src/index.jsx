@@ -4,11 +4,11 @@ import "./library.scss"
 import Home from "./Home.jsx"
 import SignUp from "./pages/SignUp"
 import * as serviceWorker from "./serviceWorker"
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import { BrowserRouter as HashRouter, Switch, Route } from "react-router-dom"
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <HashRouter>
       <Switch>
         {/* Home page */}
         <Route path="/" exact>
@@ -19,7 +19,7 @@ ReactDOM.render(
           <SignUp />
         </Route>
       </Switch>
-    </Router>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById("root")
 )
