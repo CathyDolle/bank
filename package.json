@@ -12,13 +12,15 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.4"
   },
-  "homepage": "https://cathydolle.github.io/loginProject/#",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  
+  "homepage": "https://cathydolle.github.io/loginProject",
+
   "eslintConfig": {
     "extends": "react-app"
   },
