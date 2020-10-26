@@ -11,7 +11,7 @@ function Home() {
       {/* preview section */}
       <Visual/>
       {/* form section */}
-      <section className="form_section">
+      <form className="form_section">
         <div className="form_container">
           <img className="right_circles" src="images/circles2.svg" alt="circles"></img>
           <img className="chat_box" src="images/chat.svg" alt="chat"></img>
@@ -24,7 +24,7 @@ function Home() {
           {/* <a className="recovery_password">Recover password</a> */}
           <Button name="Submit"/>
         </div>
-      </section>
+      </form>
       <p className="policy">By joining, you are agreeing to our <span>Terms</span> and <span>Privacy Policy</span></p>
     </div>
   );

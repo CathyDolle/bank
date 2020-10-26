@@ -34,8 +34,9 @@ function CustomInput(props) {
         value={value}
         type={props.type}
         placeholder={props.placeholder}
+        autoComplete="on"
       />
-      <label for="input">{props.name}</label>
+      <label htmlFor="input">{props.name}</label>
     </div>
   )
 }

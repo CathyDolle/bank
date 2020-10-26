@@ -15,22 +15,22 @@ function Home() {
       <Visual/>
 
       {/* form section */}
-      <section className="form_section">
+      <form className="form_section">
         <div className="form_container">
           <img className="right_circles" src="images/circles2.svg" alt="circles"></img>
           <img className="chat_box" src="images/chat.svg" alt="chat"></img>
           <h1>Payment made <span>easy.</span></h1>
           <h2>sign in</h2>
-          <CustomInput name="Name" placeholder="John"/>
-          <CustomInput name="Email" type="email" placeholder="you@example.com"/>
-          <CustomInput name="Password" placeholder="•••••••••••••" type="password"/>
+            <CustomInput name="Name" placeholder="John"/>
+            <CustomInput name="Email" type="email" placeholder="you@example.com"/>
+            <CustomInput name="Password" placeholder="•••••••••••••" type="password"/>
           <a className="recover_password">Recover password</a>
           <Button name="Submit"/>
           <div className="sign_container">
             <p>Dont have an account ?</p><Link to="/signup">Sign up</Link>
           </div>
         </div>
-      </section>
+      </form>
       <p className="policy">By joining, you are agreeing to our <span>Terms</span> and <span>Privacy Policy</span></p>
     </div>
   );
