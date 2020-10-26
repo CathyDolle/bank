@@ -18,7 +18,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  
   "homepage": "https://cathydolle.github.io/loginProject",
+
   "eslintConfig": {
     "extends": "react-app"
   },

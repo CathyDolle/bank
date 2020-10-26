@@ -8,7 +8,7 @@ import { BrowserRouter as HashRouter, Switch, Route } from "react-router-dom"
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter>
+    <HashRouter basename='/'>
       <Switch>
         {/* Home page */}
         <Route path="/" exact>
