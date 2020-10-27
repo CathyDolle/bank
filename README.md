@@ -34,7 +34,7 @@ This is a log in page for a bank that we create for a school project.
 ## Creators
 
 - BEGUE Elouan
-- <a href="https://loginbank.netlify.app/" target="_blank">DOLLE Cathy</a>
+- <a href="https://cathydolle.com/" target="_blank">DOLLE Cathy</a>
 - LASNEL Arthur
 - MEKELLECHE Orelia
 - RASPALDO Sandro
