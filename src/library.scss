@@ -1,10 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-// fonts
+// FONTS FAMILY
 
 // Title
 @font-face {
@@ -35,6 +29,7 @@
   font-display: swap;
 }
 
+
 // TYPO
 
 // title
@@ -60,12 +55,14 @@ h2 {
   letter-spacing: 2px;
 }
 
+// body text
 p {
   font-family: "Proxima Nova Rg";
   font-size: 14px;
   color: var(--inactiveColor);
 }
 
+// links
 a {
   font-family: "Proxima Nova Rg";
   font-size: 14px;
@@ -75,8 +72,8 @@ a {
 // colors
 
 :root {
-  --mainColor: rgb(240, 200, 200);
+  --mainColor: #F8DBDB;
   --inactiveColor: #d0d0d0;
-  --activeColor: rgb(235, 182, 182);
+  --activeColor:#EEC0C0;
   --errorColor: rgb(251, 76, 76);
 }
