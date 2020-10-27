@@ -20,6 +20,12 @@ This is a log in page for a bank that we create for a school project.
 - Another for sign up
 - Error message if you put the wrong characters
 
+## Components
+
+- Button
+- Custom input
+- Visual
+
 ## Inspiration
 
 - Dribbble
@@ -27,10 +33,10 @@ This is a log in page for a bank that we create for a school project.
 
 ## Creators
 
-BEGUE Elouan
-DOLLE Cathy
-LASNEL Arthur
-MEKELLECHE Orelia
-RASPALDO Sandro
+- BEGUE Elouan
+- <a href="https://loginbank.netlify.app/" target="_blank">DOLLE Cathy</a>
+- LASNEL Arthur
+- MEKELLECHE Orelia
+- RASPALDO Sandro
 
 Thanks for watching
