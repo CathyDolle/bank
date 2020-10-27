@@ -4,11 +4,11 @@ This is a log in page for a bank that we create for a school project.
 
 ## Website Link
 
-<a href="https://loginbank.netlify.app/" target="_blank">Bank Online</a>
+<a href="https://loginbank.netlify.app/" target="_blank">Bank log in page</a>
 
-## Softs 
+## Softs
 
-- Figma 
+- Figma
 - Github
 - React
 - Netlify
@@ -34,4 +34,3 @@ MEKELLECHE Orelia
 RASPALDO Sandro
 
 Thanks for watching
-
