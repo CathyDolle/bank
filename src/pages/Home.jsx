@@ -24,7 +24,8 @@ function Home() {
             <CustomInput name="Name" placeholder="John"/>
             <CustomInput name="Email" type="email" placeholder="you@example.com"/>
             <CustomInput name="Password" placeholder="•••••••••••••" type="password"/>
-          <p className="recover_password">Recover password</p>
+            <Link className="recover_password" to="/resetpassword">Recover password</Link>
+          {/* <p className="recover_password">Recover password</p> */}
           <Button name="Submit"/>
           <div className="sign_container">
             <p>Dont have an account ?</p><Link to="/signup">Sign up</Link>
