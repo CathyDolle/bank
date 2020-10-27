@@ -1,9 +1,9 @@
 import React from 'react';
 import './Home.scss';
-import CustomInput from './components/CustomInput.jsx'
-import Button from './components/Button.jsx'
-import Visual from './components/Visual.jsx'
-import './pages/Form.scss'
+import CustomInput from '../components/CustomInput.jsx'
+import Button from '../components/Button.jsx'
+import Visual from '../components/Visual.jsx'
+import './Form.scss'
 import {
   Link
 } from "react-router-dom";

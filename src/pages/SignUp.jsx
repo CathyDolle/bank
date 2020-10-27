@@ -1,5 +1,5 @@
 import React from 'react';
-import './../Home.scss';
+import './Home.scss';
 import CustomInput from '../components/CustomInput.jsx'
 import Button from '../components/Button.jsx'
 import Visual from '../components/Visual.jsx'
