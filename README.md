@@ -1,6 +1,6 @@
 ## Bank Login Page
 
-This is a log in page for a bank that we create for a project school
+This is a log in page for a bank that we create for a school project.
 
 ## Softs 
 
@@ -14,7 +14,7 @@ This is a log in page for a bank that we create for a project school
 
 - There is a form for sign in
 - Another for sign up
-- Error message if you put the wrong caracters
+- Error message if you put the wrong characters
 
 ## Inspiration
 
