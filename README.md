@@ -4,7 +4,7 @@ This is a log in page for a bank that we create for a school project.
 
 ## Website Link
 
-<a href="loginbank.netlify.app/">Bank Online</a>
+<a href="https://loginbank.netlify.app/" target="_blank">Bank Online</a>
 
 ## Softs 
 
